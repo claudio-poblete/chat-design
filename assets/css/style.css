@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.flexbox{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.border{
+  border-bottom: #BEC1BB solid 1px;
+
+}
+
+.container{
+  gap: 15em;
+  background-color: #E8EBE4;
+}
+
+.left-menu{
+  padding: 1rem 0;
+  background-color: #fff;
+  flex-direction: column;
+  border: #BEC1BB solid 1px;
+  min-height: 100vh;
+}
+
+.perfil{
+  padding: 0.5rem 2rem;
+  justify-content: space-between;
+}
+
+.perfil-principal{
+  gap: 1rem;
+}
+
+.perfil-title{
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.perfil-title h4{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.perfil-title p{
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #828485;
+}
+
+.perfil-title, .icons{
+  align-items: center;
+}
+
+.icons{
+  gap: 1.3rem;
+  color: #828485;
+}
+
+.icons i{
+  cursor: pointer;
+}
+
+.new-chat{
+  padding: 2em 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-btn{
+  text-decoration: none;
+  background-color: #A491D2;
+  color: #fff;
+  padding: 1rem 4rem;
+}
+
+.chat-btn:hover{
+  background-color: #CDC3E6;
+  transition: .4s ease-in;
+  font-weight: 500;
+}
+
+.chat-btn:focus{
+  background-color: #BEC1BB;
+}
+
+.chats{
+  padding: 1rem 2rem;
+  gap: 1rem;
+}
+
+.chats h4{
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.chats p{
+  font-size: 0.9rem;
+}
+
+.principal{
+  align-items: center;
+}
+
+.principal-container{
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+
+.img-logo{
+  width: 300px;
+  height: 300px;
+}
+
+.principal-content h1{
+  font-size: 3rem;
+}
+
+.principal-content p{
+  font-size: 1.3rem;
+  max-width: 700px;
+  line-height: 1.7;
+}
+
+span{
+  font-weight: 800;
+}
